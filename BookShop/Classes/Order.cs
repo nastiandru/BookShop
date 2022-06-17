@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BookShop.Classes
 {
-    internal class Order
+    public class Order
     {
+        public string title { get; set; }
+        public int ID { get; set; }
     }
 }
